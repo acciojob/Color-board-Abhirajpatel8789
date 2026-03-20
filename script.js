@@ -5,7 +5,7 @@ let container_box = document.querySelector(".container");
         for(let i = 1; i <=800; i++){
 
             let div = document.createElement("div");
-            div.className = "square";
+            div.classList.add("square");
             container_box.append(div);
             
             let randomColor  =()=> Math.floor(Math.random()*256);
