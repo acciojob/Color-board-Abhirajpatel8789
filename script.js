@@ -8,7 +8,7 @@ let container_box = document.querySelector(".container");
             div.classList.add("square");
             container_box.append(div);
             
-            let randomColor  =()=> Math.floor(Math.random()*256);
+            let randomColor  = ()=> Math.floor(Math.random()*256);
             
             div.addEventListener("mouseover",()=>{
                 div.style.backgroundColor = `rgb(${randomColor()},${randomColor()},${randomColor()})`
